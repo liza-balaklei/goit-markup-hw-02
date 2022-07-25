@@ -53,6 +53,7 @@ letter-spacing: 0.03em;
 }
 /* Шапка */
 .hero-item {
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
