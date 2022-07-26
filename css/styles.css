@@ -33,6 +33,10 @@ letter-spacing: 0.03em;
     list-style: none;
 }
 .list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -59,6 +63,7 @@ letter-spacing: 0.03em;
     line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 
@@ -95,6 +100,7 @@ letter-spacing: 0.03em;
 }
 .adress {
     color: var(--white-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -127,11 +133,15 @@ letter-spacing: 0.03em;
     cursor: pointer;
 }
 .hero-btn {
+    font-family: 'Roboto';
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
     align-items: center;
     text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
     letter-spacing: 0.06em;
 }
 .portfolio-name {
@@ -145,4 +155,7 @@ letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
+}
+.portfolio-link {
+    text-decoration: none;
 }
