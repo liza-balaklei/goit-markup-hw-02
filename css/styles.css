@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #212121;
     --title-text-color: #757575;
@@ -7,7 +15,7 @@
 }
 
 body {
-font-family: "Roboto"; sans-serif;
+font-family: "Roboto", sans-serif;
 color: var(--primary-text-color);
 letter-spacing: 0.03em;
 }
@@ -33,6 +41,7 @@ letter-spacing: 0.03em;
     list-style: none;
 }
 .list-link {
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -50,9 +59,25 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
-.header-mail,
+.header-mail {
+    color:var(--title-text-color);
+    width: 135px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
 .header-tel {
     color:var(--title-text-color);
+    width: 122px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 /* Шапка */
@@ -122,6 +147,7 @@ letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background: #F5F4FA;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.6;
     text-align: center;
     border-radius: 4px;
